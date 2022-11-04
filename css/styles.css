@@ -154,6 +154,16 @@ img {
   text-decoration: none;
 }
 
+.header-link.link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.address-icon {
+  fill: currentColor;
+}
+
 .address-link .link:hover,
 .address-link .link:focus {
   color: var(--accent-color);
